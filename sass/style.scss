@@ -1823,7 +1823,9 @@ margin-left: 10px;
 
 }
 @media screen and(max-width:1483px) {
-
+.page4>h1{
+    margin-left: -150px;
+}
     .product01>button,.product04>button, .product02>button, .product05>button,.product03>button, .product06>button{
 left: 410px;
     }
@@ -1857,6 +1859,9 @@ margin-left: 10px;
     }
     .page4>h6{
         left: 400px;
+    }
+     .page4>h1{
+        margin-left:-350px;
     }
     .product01,.product02,.product03,.product04,.product05,.product06{
         height: 350px;
@@ -1899,9 +1904,7 @@ margin-left: 10px;
         }
 }
 @media screen and(max-width:1213px){
-    .page4>h1{
-        left: 1200px;
-    }
+
     .product01>button,.product04>button, .product02>button, .product05>button,.product03>button, .product06>button{
         left: 910px;
         top: 310px;
@@ -1938,7 +1941,7 @@ margin-left: 10px;
         left: 350px;
     }
     .page4>h1{
-        left: 1100px;
+        left: 600px;
     }
     .product01,.product02,.product03,.product04,.product05,.product06{
         height: 350px;
@@ -1980,13 +1983,23 @@ margin-left: 10px;
         .repeatvec{
          display: none;
         }
-        .buttonproduct{
-            left: 1450px;
-            top:130px ;
-            width: 120px;
-        }
+        .page4>.buttonproduct{
+            margin-top: -570px;
+            margin-left: -1200px;
+            width: 6%;
+         }
 }
-
+@media screen and(max-width:1125px){
+    .buttonproduct{
+       margin-top: -570px;
+       margin-left: -1150px;
+       width: 7%;
+    }
+    .repeatellips,.repeatvec{
+        margin-top: -570px;
+        margin-left: -313px;
+    }
+}
 .page5{
 position: absolute;
 width: 1895px;
